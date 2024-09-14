@@ -56,13 +56,13 @@ function renderList(list) {
       "beforeend",
       '<div class="bg-purple-50 w-[350px] shadow-lg m-6"><ul class="bg-' +
         getRandomColor() +
-        '-300 p-4 pb-0 flex rounded-xl"><li><img class="rounded-t-[10px] h-[340px] w-[320px]" src="./jpg/' +
+        '-300 p-4 pb-0 flex rounded-xl"><li><img class="rounded-t-[10px] h-[340px] w-[320px]" src="./jpg/project/' +
         list[i].image +
         '" alt="project SS"></li></ul><div class="px-8 py-4"><h3 class="font-bold text-xl mt-4">' +
         list[i].name +
         '</h3><p class="my-4">' +
         list[i].about +
-        '</p><a class="border-b-[2px]  border-purple-500 pb-1 rounded-[4px]" href="' +
+        '</p><a class="border-b-[2px]  border-purple-500 pb-1 rounded-[4px]" target="_blank" href="' +
         list[i].code +
         '"><div class="inline font-medium relative top-[1px]">Code</div><img class="inline" src="./svg/Link.svg" alt="click"></a></div></div>'
     );
@@ -71,6 +71,6 @@ function renderList(list) {
 
 spring.addEventListener("click", () => filterData(spring, "spring"));
 hibernate.addEventListener("click", () => filterData(hibernate, "hibernate"));
-thymleaf.addEventListener("click", () => filterData(thymleaf, "thymleaf"));
+thymleaf.addEventListener("click", () => filterData(thymleaf, "thymeleaf"));
 react.addEventListener("click", () => filterData(react, "react"));
 servlet.addEventListener("click", () => filterData(servlet, "servlet"));

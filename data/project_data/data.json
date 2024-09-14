@@ -1,79 +1,30 @@
 [
     {
-        "name" : "Project Name",
-        "about" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia natus beatae libero explicabo voluptatibus saepe.",
-        "code" : "#",
+        "name" : "Smart Contact Manager",
+        "about" : "A Smart Contact Manager developed using Spring Boot, MySQL, and Thymeleaf, designed to efficiently manage and organize contact information. It offers features for adding, updating, and deleting contacts with an intuitive user interface.",
+        "code" : "https://github.com/NeerajGupta23/smartContactManager",
         "type" : "spring",
-        "image" : "ss1.jpg"
+        "image" : "smartContactManager/image.png"
     },
     {
-        "name" : "Project Name",
-        "about" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia natus beatae libero explicabo voluptatibus saepe.",
-        "code" : "#",
-        "type" : "spring",
-        "image" : "ss2.png"
+        "name" : "Smart Contact Manager",
+        "about" : "A Smart Contact Manager developed using Spring Boot, MySQL, and Thymeleaf, designed to efficiently manage and organize contact information. It offers features for adding, updating, and deleting contacts with an intuitive user interface.",
+        "code" : "https://github.com/NeerajGupta23/smartContactManager",
+        "type" : "thymeleaf",
+        "image" : "smartContactManager/image.png"
     },
     {
-        "name" : "Project Name",
-        "about" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia natus beatae libero explicabo voluptatibus saepe.",
-        "code" : "#",
-        "type" : "hibernate",
-        "image" : "ss1.jpg"
-    },
-    {
-        "name" : "Project Name",
-        "about" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia natus beatae libero explicabo voluptatibus saepe.",
-        "code" : "#",
-        "type" : "spring",
-        "image" : "ss2.png"
-    },
-    {
-        "name" : "Project Name",
-        "about" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia natus beatae libero explicabo voluptatibus saepe.",
-        "code" : "#",
-        "type" : "react",
-        "image" : "ss1.jpg"
-    },
-    {
-        "name" : "Project Name",
-        "about" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia natus beatae libero explicabo voluptatibus saepe.",
-        "code" : "#",
-        "type" : "react",
-        "image" : "ss2.png"
-    },
-    {
-        "name" : "Project Name",
-        "about" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia natus beatae libero explicabo voluptatibus saepe.",
-        "code" : "#",
+        "name" : "MVC CRUD App",
+        "about" : "MVC CRUD App built using JDBC, Servlets, HTML, CSS, and JavaScript, allowing users to perform Create, Read, Update, and Delete operations. It connects to a MySQL database and utilizes MySQL Connector and HikariCP for connection pooling, deployed locally on a Tomcat server.",
+        "code" : "https://github.com/NeerajGupta23/Crud-Web-App/tree/main",
         "type" : "servlet",
-        "image" : "ss2.png"
+        "image" : "mvcCrudApp/image.png"
     },
     {
-        "name" : "Project Name",
-        "about" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia natus beatae libero explicabo voluptatibus saepe.",
-        "code" : "#",
-        "type" : "thymleaf",
-        "image" : "ss2.png"
-    },
-    {
-        "name" : "Project Name",
-        "about" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia natus beatae libero explicabo voluptatibus saepe.",
-        "code" : "#",
-        "type" : "thymleaf",
-        "image" : "ss2.png"
-    },
-    {
-        "name" : "Project Name",
-        "about" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia natus beatae libero explicabo voluptatibus saepe.",
-        "code" : "#",
-        "type" : "thymleaf",
-        "image" : "ss2.png"
-    },
-    {
-        "name" : "Project Name",
-        "about" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia natus beatae libero explicabo voluptatibus saepe.",
-        "code" : "#",
-        "type" : "thymleaf",
-        "image" : "ss2.png"
+        "name" : "MVC CRUD App",
+        "about" : "MVC CRUD App built using JDBC, Servlets, HTML, CSS, and JavaScript, allowing users to perform Create, Read, Update, and Delete operations. It connects to a MySQL database and utilizes MySQL Connector and HikariCP for connection pooling, deployed locally on a Tomcat server.",
+        "code" : "https://github.com/NeerajGupta23/Crud-Web-App/tree/main",
+        "type" : "hibernate",
+        "image" : "mvcCrudApp/image.png"
     }
 ]
