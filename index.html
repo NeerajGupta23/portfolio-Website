@@ -73,13 +73,20 @@
                 <h5 class="font-bold m-6">Hello, I am </h5>
                 <h2 class="m-6 text-[60px] font-bold underline">Neeraj Kumar</h2>
                 <h3 class="mx-6 my-8 text-[50px] font-bold">Full Stack Devloper</h3>
-            </div>
-            <div class="w-[25%] relative right-[200px]">
-                <div>
-                    <img class="bg-gradient-to-br from-orange-300 via-orange-200 to-orange-100 p-4 pb-0 rounded-[300px] border-[6px]"
-                        src="./jpg/profile.png" alt="">
+                <div class="min-[1000px]:hidden w-auto">
+                    <div>
+                        <img class="bg-gradient-to-br from-orange-300 via-orange-200 to-orange-100 p-4 pb-0 rounded-[300px] border-[6px]"
+                            src="./jpg/profile.png" alt="My Photo">
+                    </div>
                 </div>
             </div>
+            <div class="w-[25%] relative right-[200px] max-[1000px]:hidden">
+                <div>
+                    <img class="bg-gradient-to-br from-orange-300 via-orange-200 to-orange-100 p-4 pb-0 rounded-[300px] border-[6px]"
+                        src="./jpg/profile.png" alt="My Photo">
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -91,10 +98,10 @@
     </div>
 
     <!-- My Skills  -->
-    <section id="skills" class="p-8 m-12 mx-auto">
+    <section id="skills" class="p-8 m-12">
         <h2 class="text-center mt-2 mb-8 font-bold text-3xl md:text-6xl">
             My Skills</h2>
-        <ul class="flex justify-evenly flex-wrap max-w-[1100px] min-w-[100%] mx-auto">
+        <ul class="flex justify-evenly flex-wrap max-w-[1100px] mx-auto">
             <li class="bg-purple-50 min-w-[120px] max-w-[140px] px-6 py-3 rounded-3xl shadow-md my-8 mx-10">
                 <img class="max-w-[100%]" src="./svg/java.svg" alt="Java">
                 <div class="text-center my-2 font-medium">Java</div>
@@ -244,11 +251,11 @@
     </div>
 
     <!-- About Me  -->
-    <Section id="about" class="bg-white p-4 my-16 mx-24 rounded-xl">
+    <Section id="about" class="bg-white p-4 my-16 mx-24 rounded-xl max-[600px]:w-[95%] max-[600px]:mx-auto">
         <h2 class="text-center font-bold text-3xl md:text-6xl my-8">About Me</h2>
         <div class="w-[80%] mx-auto">
             <p
-                class="w-[80%] px-8 py-[15px] mx-auto text-justify leading-9 text-xl bg-gradient-to-r from-purple-200 to-pink-100 rounded-xl my-5 font-medium text-gray-700">
+                class="w-[80%] px-8 py-[15px] mx-auto text-justify leading-9 text-xl max-[600px]:text-base bg-gradient-to-r from-purple-200 to-pink-100 rounded-xl my-5 font-medium text-gray-700">
                 Hi there! I'm Neeraj Kumar,
                 currently
                 pursuing
@@ -256,7 +263,7 @@
                 Science and
                 Engineering at Bhilai Institute of Technology, Durg.</p>
             <p
-                class="w-[80%] px-8 py-[15px] mx-auto text-justify leading-9 text-xl bg-gradient-to-l from-purple-200 to-pink-100 rounded-xl my-5 font-medium text-gray-700">
+                class="w-[80%] px-8 py-[15px] mx-auto text-justify leading-9 text-xl max-[600px]:text-base bg-gradient-to-l from-purple-200 to-pink-100 rounded-xl my-5 font-medium text-gray-700">
                 I have a strong passion for
                 software
                 development,
@@ -264,14 +271,14 @@
                 Thymeleaf
                 for dynamic web pages and React for creating interactive user interfaces.</p>
             <p
-                class="w-[80%] px-8 py-[15px] mx-auto text-justify leading-9 text-xl bg-gradient-to-r from-purple-200 to-pink-100 rounded-xl my-5 font-medium text-gray-700">
+                class="w-[80%] px-8 py-[15px] mx-auto text-justify leading-9 text-xl max-[600px]:text-base bg-gradient-to-r from-purple-200 to-pink-100 rounded-xl my-5 font-medium text-gray-700">
                 My solid understanding of Data
                 Structures and Algorithms allows me to design and implement efficient solutions. I am always eager
                 to
                 learn and apply new technologies to solve real-world problems.</p>
             <div class="w-[20%] mx-auto my-8">
                 <button
-                    class="text-white bg-purple-500 py-2 px-4 mx-auto rounded-lg font-bold text-lg hover:bg-gradient-to-r hover:from-purple-500 via-purple-500 hover:to-pink-400">
+                    class="text-white bg-purple-500 py-2 px-4 mx-auto rounded-lg font-bold text-lg max-[600px]:text-base hover:bg-gradient-to-r hover:from-purple-500 via-purple-500 hover:to-pink-400">
                     <a href="./data/resume/My Resume.pdf" class="" download="myResume">
                         Download Resume
                     </a>
